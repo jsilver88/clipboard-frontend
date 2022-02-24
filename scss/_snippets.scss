@@ -1,0 +1,42 @@
+@use 'colors' as *;
+.snippets {
+  padding-bottom: 15rem;
+
+  &__header {
+    margin-bottom: 8rem;
+  }
+
+  &__container {
+    max-width: 120rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  &__image {
+    margin-left: -10rem;
+  }
+
+  &__text {
+    margin-left: 11rem;
+
+    &--box {
+      h3 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: $darkGrayishBlue;
+        line-height: 3rem;
+        letter-spacing: -0.39px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        text-align: left;
+        max-width: 35rem;
+        margin-bottom: 5.6rem;
+      }
+    }
+  }
+}

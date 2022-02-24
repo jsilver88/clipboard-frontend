@@ -1,0 +1,13 @@
+.clipboard {
+  padding-bottom: 15rem;
+
+  &__header {
+    margin-bottom: 11rem;
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

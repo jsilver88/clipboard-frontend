@@ -1,0 +1,45 @@
+@use 'colors' as *;
+.workflow {
+  padding-bottom: 15rem;
+
+  .container {
+    max-width: 140rem;
+    margin-inline: auto;
+  }
+
+  &__header {
+    margin-bottom: 7.2rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+    &--card {
+      .image__box {
+        display: grid;
+        place-items: center;
+        margin-bottom: 5.3rem;
+
+        img {
+          width: 4.4rem;
+        }
+      }
+
+      .text__box {
+        h3 {
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: -0.39px;
+          color: $darkGrayishBlue;
+          margin-bottom: 1.6rem;
+        }
+
+        p {
+          max-width: 35rem;
+        }
+      }
+    }
+  }
+}

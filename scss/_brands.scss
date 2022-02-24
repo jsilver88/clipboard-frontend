@@ -1,0 +1,12 @@
+.brands {
+  padding-bottom: 15rem;
+  .container {
+    max-width: 140rem;
+    margin-inline: auto;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

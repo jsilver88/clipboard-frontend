@@ -1,0 +1,17 @@
+.cta {
+  padding-bottom: 15rem;
+
+  &__header {
+    margin-bottom: 4.8rem;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn__primary {
+      margin-right: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,171 @@
+@media screen and (max-width: 76.8rem) {
+  .btn__primary,
+  .btn__secondary {
+    padding: 1.3rem 5rem;
+  }
+  .section__heading {
+    font-size: 2.8rem;
+  }
+  .hero {
+    background: url('../images/bg-header-mobile.png') no-repeat center/cover;
+
+    .container {
+      padding: 0 2.4rem;
+    }
+    &__heading {
+      font-size: 3.2rem;
+      line-height: 4rem;
+    }
+
+    &__sub--heading {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      max-width: 31rem;
+    }
+
+    &__btn--container {
+      display: flex;
+      flex-direction: column;
+
+      .btn__primary {
+        margin-right: 0;
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+
+  .snippets {
+    &__header {
+      padding-inline: 2.4rem;
+      p {
+        max-width: 31rem;
+      }
+    }
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__image {
+      margin-left: 0;
+      max-width: 31rem;
+      margin-bottom: 5.6rem;
+    }
+
+    &__text {
+      margin-left: 0;
+      text-align: center;
+
+      &--box {
+        p {
+          text-align: center;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .clipboard {
+    &__header {
+      padding-inline: 2.4rem;
+      margin-bottom: 6.4rem;
+      p {
+        max-width: 31rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    &__image {
+      max-width: 31rem;
+      margin-inline: auto;
+    }
+  }
+
+  .workflow {
+    &__header {
+      padding-inline: 2.4rem;
+      p {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+
+      &--card {
+        margin-bottom: 5.6rem;
+
+        .image__box {
+          margin-bottom: 4rem;
+
+          img {
+            width: 4.4rem;
+          }
+        }
+
+        .text__box {
+          p {
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+          }
+        }
+      }
+    }
+  }
+
+  .brands {
+    &__grid {
+      grid-template-columns: 1fr;
+      place-items: center;
+
+      img {
+        margin-bottom: 5.6rem;
+      }
+    }
+  }
+
+  .cta {
+    &__header {
+      padding-inline: 2.4rem;
+      p {
+        max-width: 31rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    &__buttons {
+      flex-direction: column;
+
+      .btn__primary {
+        margin-right: 0;
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      grid-template-columns: 1fr;
+      place-items: center;
+      text-align: center;
+    }
+
+    &__image {
+      margin-bottom: 4rem;
+    }
+
+    .social__links {
+      margin-top: 5rem;
+
+      .social__link:not(:last-child) {
+        margin-right: 4rem;
+      }
+
+      i {
+        margin-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@use 'colors' as *;
+
+.footer {
+  background-color: hsla(201, 11%, 66%, 0.1);
+  .container {
+    max-width: 140rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-block: 4rem;
+  }
+
+  &__image {
+    img {
+      max-width: 5.5rem;
+    }
+  }
+
+  &__links {
+    li {
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  &__link {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 3rem;
+    color: $darkGrayishBlue;
+
+    transition: color 0.25s ease-in-out;
+
+    &:hover {
+      color: $cyan;
+    }
+  }
+
+  .social__links {
+    i {
+      color: $darkGrayishBlue;
+      font-size: 2.4rem;
+      margin-left: 2.4rem;
+
+      transition: color 0.25s ease-in-out;
+
+      &:hover {
+        color: $cyan;
+      }
+    }
+  }
+}
